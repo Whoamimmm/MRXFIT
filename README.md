@@ -1,2 +1,2 @@
 # MRXFIT
-MRXFIT
+whoamimmm.github.io/mrxfit/
