@@ -1,2 +1,2 @@
 # MRXFIT
-whoamimmm.github.io/mrxfit/
+-Мой проект(https://whoamimmm.github.io/mrxfit/)
