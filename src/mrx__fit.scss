@@ -1,0 +1,237 @@
+$mw: 1440px;
+$cd: #131316;
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article>*+* {
+    margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+.header {
+    background-color: $cd;
+    height: 82px;
+}
+
+.container__header {
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 85px;
+    height: 23px;
+    color: #fff;
+    display: flex;
+    padding-right: 7px;
+}
+
+.logo__span{
+color: blue;
+}
+
+.container__container-header {
+    display: flex;
+
+   
+}
+
+.header__every {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.registration {
+width: 187.28px;
+height: 42px;
+}
+
+.login__in {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sign__up {
+text-decoration: none;
+width: 100px;
+color: white;
+padding: 20px 30px;
+margin: 10px 20px;
+border-radius: 10px;
+text-transform: uppercase;
+letter-spacing: 2px;
+background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+transition: .5s;
+font-size: 20px;
+}
+.header__poster {
+background-color: $cd;
+}
+
+.container__header-poster {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container__all-text-poster {
+    margin-top: 110px;
+}
+
+.poster__title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.poster {
+    color: blue;
+}
+
+.poster__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #DEDEE3;
+}
+.our__mission {}
+
+.container__our-mission {
+    margin: 0 auto;
+}
+
+.mission__title {
+    width: 314px;
+    height: 50px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #131316;
+    margin-bottom: 40px;
+}
+
+.mission__img {
+
+}
+
+.container__text-mission {
+    margin: 0 auto;
+    color: #595962;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.mission__text-1 {
+margin-bottom: 30px;
+}
+
+.mission__text-2 {
+    margin-bottom: 30px;
+}
+
+.mission__join {}
+
+.mission {}
+
+
+
+.training__programm {}
+
+.container__training-programm {}
+
+.title__training-programm {
+    width: 470px;
+    height: 50px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #131316;
+}
+
+.tran__img {}
