@@ -1,2 +1,2 @@
 # MRXFIT
-[MRXFIT](https://whoamimmm.github.io/mrxfit/)
+[MRXFIT](https://whoamimmm.github.io/MRXFIT/)
